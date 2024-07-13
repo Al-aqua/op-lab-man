@@ -1,0 +1,6 @@
+[book]
+authors = ["Mohammad"]
+language = "en"
+multilingual = false
+src = "src"
+title = "Operating systems lab manuel"
