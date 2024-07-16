@@ -4,3 +4,7 @@ language = "en"
 multilingual = false
 src = "src"
 title = "Operating systems lab manuel"
+
+[output.html]
+
+[output.pdf]
