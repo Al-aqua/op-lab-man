@@ -16,6 +16,7 @@
    1. history
    1. alias
    1. whoami
+      ass:Redirection and Pipes
 4. User Management
    1. adduser/useradd: Add a new user
    1. passwd
