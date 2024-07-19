@@ -111,7 +111,7 @@ More Linux commands to make you feel comfortable in the terminal.
   - `curl -O https://example.com/file.zip`: Downloads the file `file.zip` from the internet.
 
 > Exercise: <br/>
-> Use the `wget` or `curl` command to download the `https://github.com/Al-aqua/op-lab-man/blob/main/absolutely-not-a-virus` file from the internet.
+> Use the `wget` or `curl` command to download the `https://raw.githubusercontent.com/Al-aqua/op-lab-man/main/absolutely-not-a-virus` file from the internet.
 > what is the content of the file?
 
 <br/>
