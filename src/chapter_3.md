@@ -65,8 +65,7 @@ echo "Hello, $name!"
 
 ### 5. Conditional Statements
 
-Conditional statements allow you to perform different actions based on
-different conditions.
+Conditional statements allow you to perform different actions based on different conditions.
 
 ```bash
 #!/bin/bash
