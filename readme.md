@@ -1,4 +1,4 @@
-# This the manual for the Operating Systems lab by Mr.Mohammad Al-aqua [Al-aqua](https://github.com/Al-aqua)
+# This is the lap manual for the Operating Systems course by Mr.Mohammad Al-aqua [Al-aqua](https://github.com/Al-aqua)
 
 ## To build this book:
 
